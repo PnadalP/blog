@@ -14,7 +14,7 @@
 }
 
 #image {
-    background-image: url('/img/newsletter_background.jpg');
+    background-image: url('img/newsletter_background.jpg');
     height: 323px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@
 }
 #imagecontact {
   position: relative; 
-  background-image: url('/img/newsletter_background.jpg'); 
+  background-image: url('img/newsletter_background.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
