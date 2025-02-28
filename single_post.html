@@ -11,7 +11,7 @@
     <header>
         <div class="container-fluid p-0">
             <nav class="px-5 navbar d-flex navbar-expand-lg border-bottom border-2 border-dark-subtle">
-                <div class="col">
+                <div class="col-4">
                     <div class="ms-5">
                         <a class="navbar-brand fw-bold" href="index.html">
                             <img src="/img/logo.png" alt="Logo" class="d-inline-block align-text-top">
@@ -19,34 +19,36 @@
                         </a>
                     </div>
                 </div>
-                <div class="me-5">
+                <div class="col text-end">
                     <!-Falta fer que funcioni bé el botó dropdown->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <div class="collapse navbar-collapse justify-content-end me-5" id="navbarTogglerDemo02">
                         <ul class="navbar-nav">
-                            <li>
+                            <li class="mx-md-5">
                                 <a class="nav-link active" href="index.html">Home</a>
                             </li>
-                            <li>
+                            <li class="mx-md-5">
                                 <a class="nav-link active" href="pages.html">Pages</a>
                             </li>
-                            <li>
-                                <a class="nav-link border-bottom border-2 border-dark active" aria-current="page" href="single_post.html">Single Post</a>
+                            <li class="mx-md-5">
+                                <a class="nav-link border-bottom border-2 border-dark d-inline-block active" aria-current="page" href="single_post.html">Single Post</a>
                             </li>
-                            <li>
+                            <li class="mx-md-5">
                                 <a class="nav-link active" href="contact.html">Contact</a>
                             </li>
-                            <li>
-                                <button class="btn btn-outline-dark me-2" type="button">Log in</button>
-                                <button class="btn btn-dark me-2" type="button">Get started</button>
+                            <li class="ms-md-5 pt-2 pt-md-0">
+                                <ul class="navbar-nav">
+                                    <li><button class="btn btn-outline-dark me-2" type="button">Log in</button></li>
+                                    <li><button class="btn btn-dark me-2" type="button">Get started</button></li>
+                                </ul>
                             </li>
                         </ul>
                     </div>
                 </div>
+            </nav>
         </div>
-        </nav>
     </header>
     <main>
         <section class="mt-5 pt-5">

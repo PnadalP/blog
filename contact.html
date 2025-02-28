@@ -10,46 +10,77 @@
 <body>
     <header>
         <div class="container-fluid p-0">
-            <nav class="px-5 navbar d-flex navbar-expand-lg border-bottom border-2 border-dark-subtle">
-                <div class="col">
-                    <div class="ms-5">
-                        <a class="navbar-brand fw-bold" href="index.html">
-                            <img src="/img/logo.png" alt="Logo" class="d-inline-block align-text-top">
-                            <i>Ddsgnr</i>
-                        </a>
+            <div class="container-fluid p-0">
+                <nav class="px-5 navbar d-flex navbar-expand-lg border-bottom border-2 border-dark-subtle">
+                    <div class="col-4">
+                        <div class="ms-5">
+                            <a class="navbar-brand fw-bold" href="index.html">
+                                <img src="/img/logo.png" alt="Logo" class="d-inline-block align-text-top">
+                                <i>Ddsgnr</i>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="me-5">
-                    <!-Falta fer que funcioni bé el botó dropdown->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <ul class="navbar-nav">
-                            <li>
-                                <a class="nav-link active" href="index.html">Home</a>
-                            </li>
-                            <li>
-                                <a class="nav-link active" href="pages.html">Pages</a>
-                            </li>
-                            <li>
-                                <a class="nav-link active" href="single_post.html">Single Post</a>
-                            </li>
-                            <li>
-                                <a class="nav-link border-bottom border-2 border-dark active" aria-current="page" href="contact.html">Contact</a>
-                            </li>
-                            <li>
-                                <button class="btn btn-outline-dark me-2" type="button">Log in</button>
-                                <button class="btn btn-dark me-2" type="button">Get started</button>
-                            </li>
-                        </ul>
+                    <div class="col text-end">
+                        <!-Falta fer que funcioni bé el botó dropdown->
+                        <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end me-5" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav">
+                                <li class="mx-md-5">
+                                    <a class="nav-link active" href="index.html">Home</a>
+                                </li>
+                                <li class="mx-md-5">
+                                    <a class="nav-link active" href="pages.html">Pages</a>
+                                </li>
+                                <li class="mx-md-5">
+                                    <a class="nav-link active" href="single_post.html">Single Post</a>
+                                </li>
+                                <li class="mx-md-5">
+                                    <a class="nav-link border-bottom border-2 border-dark d-inline-block active" aria-current="page" href="contact.html">Contact</a>
+                                </li>
+                                <li class="ms-md-5 pt-2 pt-md-0">
+                                    <ul class="navbar-nav">
+                                        <li><button class="btn btn-outline-dark me-2" type="button">Log in</button></li>
+                                        <li><button class="btn btn-dark me-2" type="button">Get started</button></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
+                </nav>
+            </div>
         </div>
-        </nav>
     </header>
     <main>
-        <h1>hello world</h1>
+        <section id="imagecontact" class="container my-5">
+            <div class=" mx-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h2><strong>Get in touch with us</strong></h2>
+                    </div>
+                    <div class="col-12">
+                        <form action="">
+                            <div class="">
+                                <label for="validationDefault01" class="form-label">First name</label>
+                                <input type="text" class="form-control" id="validationDefault01" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Write your message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="">
+                                <button class="btn btn-outline-dark btn-light me-2" type="submit">Submit form</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="bg-black text-light pt-5 px-5 text-start">
         <section class="px-5 row justify-content-md-between justify-content-start pb-5">
